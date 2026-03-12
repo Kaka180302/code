@@ -1,0 +1,20 @@
+*Sử dụng thẻ meta để bắt đầu làm web responsive
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+*Search google chrome: resond.js pollyfill cnd (để lấy link làm web chạy trên cả Internet Explore(IE) version từ 6-9)
+*Search google chrome: condition comment HTML (để lấy dòng comment khi gặp IE version từ 6-9 sẽ tự động kích hoạt
+responsive không bị lỗi!)
+    <!--[iflt IE 9]>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
+*Search google chrome: px to em converter (để đổi từ em sang px)
+    -Sử dụng đơn vị em để làm web responsive. Vì nó không bị lỗi khi làm responsive!
+*Mobile
+	-max-width: 739px ~ 46.185em
+*Tablet
+	-min-width: 740px ~ 46.25em
+	-max-width: 1023px ~ 63.9375em
+*PC
+	-min-width: 1024px ~ 64em
+*Thuộc tính display
+	display: none (để ẩn items đi)
+	display: block (để mở items lên)

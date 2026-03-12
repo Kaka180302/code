@@ -1,0 +1,35 @@
+*Có 4 bước dựng web:
+1.Phân tích web
+2.Dựng Base (xây móng)
+3.Xây dựng từng phần theo phân tích
+4.Hoàn thiện
+
+*Những thành phần thường gặp trên giao diện website:
+1.Header (đầu trang)
+2.Navigation (diều hướng)
+3.Breadcrumb (cho biết vị trí user đang ở đâu trong web)
+4.Sidebar (thanh công cụ phụ)
+5.Slider (trình chiếu hình ảnh)
+6.Content (nội dung chính)
+7.Footer (chân trang)
+
+*Đặt tên file html là index.html
+ Tạo thư mục assets, bên trong thư mục này tạo thư mục CSS rồi tới file style.css (./assets/CSS/style.css)
+
+*Reset CSS
+	padding: 0;
+	margin: 0;
+	box-sizing: box-border;
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+*Tạo một thẻ div bao bọc tất cả các thành phần (main - wrap - app)
+ sau đó đến các thành phần phân tích trong web.
+*Nhúng fonts awesome
+ <script src="https://kit.fontawesome.com/98bc3ef128.js" crossorigin="anonymous"></script>
+*Tạo hình ảnh trên thẻ google
+	<link rel="icon" href="/assets/CSS/img/ka.jpg" type="image/gif" sizes="16x16">
+
+* Nhúng font aweasome
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
